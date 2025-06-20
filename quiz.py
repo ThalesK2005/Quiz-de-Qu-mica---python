@@ -2,6 +2,7 @@ print("Seja muito bem vindo ao quiz")
 começar = input("Deseja começar? (S/N) ")
 
 if começar != "S":
+    print("utilize S maiúsculo")
     quit()
 
 score = 0
